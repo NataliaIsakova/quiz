@@ -1,0 +1,75 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("piramid.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-size: cover;
+    height: 100vh;
+    }
+    label {
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 10px 15px;
+        width: 600px;
+        text-align: center;
+        background-color: grey;
+    }
+
+    label:hover {
+        background-color: red;
+    }
+
+    input {
+        margin: 15px;
+    }
+
+
+    .choose {
+        padding: 5px;
+        margin: 5px;
+        font-weight: bolder;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+    }
+
+    .btn {
+        border: 1px solid black;
+        width: 100%;
+        padding: 15px;
+        background-color: azure;
+        font-size: 20px;
+        font-weight: bolder;
+        
+    }
+
+    .btn:hover {
+        background-color: red;
+        color: white;
+        opacity: 0.5;
+    } 
+    .showResult {
+        position: relative;
+        margin: auto auto;
+        bottom: 230px;
+        width: 40%;
+        height: 200px;
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px 25px;
+        text-align: center;
+        background-color: beige;
+        display: none;
+        }
+    
+    
+    .show, .level {
+        display: none;
+        }

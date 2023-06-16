@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="earth.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <form>
+         <div class="choose">
+            <label>1.Отправляясь в путешествие в 1492 г., Христофор Колумб надеялся открыть:</label>
+            <div><input type="radio" name="questionOne">Америку</div>
+            <div><input type="radio" name="questionOne" class="answerOne">Индию</div>
+            <div><input type="radio" name="questionOne">Китай</div>
+         </div>
+         <div class="choose">
+            <label>2.Самой большой по численности населения страной мира являются:</label>
+            <div><input type="radio" name="questionTwo" class="answerTwo">Китай </div>
+            <div><input type="radio" name="questionTwo">Индия</div>
+            <div><input type="radio" name="questionTwo">Россия</div>
+         </div>
+         <div class="choose">
+            <label>3.В какой из перечисленных стран наибольшая плотность населения?</label>
+            <div><input type="radio" name="questionThree" class="answerThree">В Индии</div>
+            <div><input type="radio" name="questionThree">В Китае</div>
+            <div><input type="radio" name="questionThree">Во Франции</div>
+         </div>
+         <div class="choose">
+            <label>4.Наибольшей по количеству верующих мировой религией является:</label>
+            <div><input type="radio" name="questionFour">Ислам</div>
+            <div><input type="radio" name="questionFour" class="answerFour">Христианство</div>
+            <div><input type="radio" name="questionFour">Буддизм</div>
+         </div>
+         <div class="choose">
+            <label>5.Древней среди мировых религий является:</label>
+            <div><input type="radio" name="questionFive">Ислам</div>
+            <div><input type="radio" name="questionFive" class="answerFive">Буддизм</div>
+            <div> <input type="radio" name="questionFive">Христианство</div>
+         </div>
+         <div class="choose">
+            <label>6.Как называется процесс воспроизводства нарушенных земель?</label>
+            <div><input type="radio" name="questionSix">Реконструкция</div>
+            <div><input type="radio" name="questionSix">Реставрация</div>
+            <div><input type="radio" name="questionSix" class="answerSix">Рекультивация</div>
+         </div>
+         <div class="choose">
+            <label>7.Главным следствием парникового эффекта на Земле являются:</label>
+            <div><input type="radio" name="questionSeven" class="answerSeven">общее потепление климата</div>
+            <div><input type="radio" name="questionSeven">общее похолодание климата</div>
+            <div><input type="radio" name="questionSeven">увеличение урожайности парниковых культур</div>
+         </div>
+         <div class="choose">
+            <label>8.Крупнейшими загрязнителями атмосферы являются:</label>
+            <div><input type="radio" name="questionEight">развивающиеся страны</div>
+            <div><input type="radio" name="questionEight" class="answerEight">промышленно развитые страны</div>
+            <div><input type="radio" name="questionEight">беднейшие страны</div>
+         </div>
+         <div class="choose">
+            <label>9.Увеличение углекислого газа в атмосфере является прямым следствием:</label>
+            <div><input type="radio" name="questionNine">увеличение площадей пустынь</div>
+            <div><input type="radio" name="questionNine" class="answerNine">уменьшение площадей лесов</div>
+            <div><input type="radio" name="questionNine">уменьшение озонового слоя</div>
+         </div>
+         <div class="choose">
+            <label>10.Самая посещаемая страна мира:</label>
+            <div><input type="radio" name="questionTen">Италия</div>
+            <div><input type="radio" name="questionTen">Турция</div>
+            <div><input type="radio" name="questionTen" class="answerTen">Испания</div>
+         </div>
+         <button type="submit" class="btn">Ваш результат</button>
+      </form>
+      <div class="showResult">
+         <p class="show"></p>
+         <p class="level"></p>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="earth.js"></script>
+   </body>
+</html>

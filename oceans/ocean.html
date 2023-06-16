@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="ocean.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <form>
+         <div class="choose">
+            <label>1.По какому океану проходит большая часть морских путей?</label>
+            <div><input type="radio" name="questionOne" class="answerOne">Атлантическому</div>
+            <div><input type="radio" name="questionOne">Тихому</div>
+            <div><input type="radio" name="questionOne">Индийскому</div>
+         </div>
+         <div class="choose">
+            <label>2.Частью какого океана является Средиземное море?</label>
+            <div><input type="radio" name="questionTwo" class="answerTwo">Атлантического</div>
+            <div><input type="radio" name="questionTwo">Северного Ледовитого</div>
+            <div><input type="radio" name="questionTwo">Индийского</div>
+         </div>
+         <div class="choose">
+            <label>3.Воды каких океанов соединяет Панамский канал?</label>
+            <div><input type="radio" name="questionThree" class="answerThree">Тихого и Атлантического</div>
+            <div><input type="radio" name="questionThree">Тихого и Индийского</div>
+            <div><input type="radio" name="questionThree">Атлантического и Индийского</div>
+         </div>
+         <div class="choose">
+            <label>4.Именно этот океан в 17 веке обычно называли «Южным морем»</label>
+            <div><input type="radio" name="questionFour" class="answerFour">Тихий</div>
+            <div><input type="radio" name="questionFour">Индийский</div>
+            <div><input type="radio" name="questionFour">Атлантический</div>
+         </div>
+         <div class="choose">
+            <label>5.В каком океане в 30-х годах 20-го века началось освоение морского пути?</label>
+            <div><input type="radio" name="questionFive" class="answerFive">Северном Ледовитом</div>
+            <div><input type="radio" name="questionFive">Тихом</div>
+            <div><input type="radio" name="questionFive">Атлантическом</div>
+         </div>
+         <div class="choose">
+            <label>6.В каком океане гигантский хребет почти по середине вытянулся вдоль меридиана?</label>
+            <div><input type="radio" name="questionSix" class="answerSix">Атлантическом</div>
+            <div><input type="radio" name="questionSix">Индийском</div>
+            <div><input type="radio" name="questionSix">Тихом</div>
+         </div>
+         <div class="choose">
+            <label>7.Активно плавающих животных океана называют:</label>
+            <div><input type="radio" name="questionSeven" class="answerSeven">Нектоном</div>
+            <div><input type="radio" name="questionSeven">Планктоном</div>
+            <div><input type="radio" name="questionSeven">Бентос</div>
+         </div>
+         <div class="choose">
+            <label>8.В каком океане навигация длится от 2 до 4 месяцев?</label>
+            <div><input type="radio" name="questionEight" class="answerEight">Северном Ледовитом</div>
+            <div><input type="radio" name="questionEight">Тихом</div>
+            <div><input type="radio" name="questionEight">Атлантическом</div>
+         </div>
+         <div class="choose">
+            <label>9.Ниже каких глубин отсутствуют в океане зеленые растения?</label>
+            <div><input type="radio" name="questionNine" class="answerNine">200-250 метров</div>
+            <div><input type="radio" name="questionNine">100-150 метров</div>
+            <div><input type="radio" name="questionNine">300-350 метров</div>
+         </div>
+         <div class="choose">
+            <label>10.Каким каналом соединяются воды Индийского и Северного Ледовитого океанов?</label>
+            <div><input type="radio" name="questionTen" class="answerTen">Суэцким каналом</div>
+            <div><input type="radio" name="questionTen">Панамским каналом</div>
+            <div><input type="radio" name="questionTen">Азово-Черноморским</div>
+         </div>
+         <button type="submit" class="btn">Ваш результат</button>
+      </form>
+      <div class="showResult">
+         <p class="show"></p>
+         <p class="level"></p>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="ocean.js"></script>
+   </body>
+</html>
